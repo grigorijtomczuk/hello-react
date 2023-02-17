@@ -1,5 +1,7 @@
-import Main from "./Main";
+import { HashRouter } from "react-router-dom";
+
 import Navbar from "./Navbar";
+import Main from "./Main";
 import "../css/reset.css";
 import "../css/app.css";
 import "../css/modifiers.css";
@@ -7,8 +9,10 @@ import "../css/modifiers.css";
 function App() {
 	return (
 		<div className="app">
-			<Navbar />
-			<Main />
+			<HashRouter>
+				<Navbar />
+				<Main />
+			</HashRouter>
 		</div>
 	);
 }
