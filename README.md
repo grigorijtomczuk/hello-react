@@ -10,6 +10,11 @@
 	An introductory React project.
 </p>
 
+<div align=center>
+	<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/grigorijtomczuk/hello-react">
+	<img alt="GitHub license type" src="https://img.shields.io/github/license/grigorijtomczuk/hello-react">
+</div>
+
 ### Prerequisites
 
 Install the required packages with the command:
