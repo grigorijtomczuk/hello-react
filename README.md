@@ -30,7 +30,8 @@ $ npm run build
 
 You can run the application in development mode on your localhost (http://localhost:3000/hello-react) to view it in a browser (without building in `dist`).
 
-> The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console. 
+> The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
+> 
 > <cite>["Create React App" documentation](https://create-react-app.dev/docs/getting-started#npm-start-or-yarn-start)</cite>
 
 Run this command:
