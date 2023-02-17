@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Blog from "../pages/Blog";
 
+// TODO: Add a 404 page.
 function Main() {
 	return (
 		<Routes>

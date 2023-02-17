@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import logo from "../assets/img/logo.svg";
 
 function Home() {
@@ -15,9 +13,9 @@ function Home() {
 						Hello <code>React.js</code>!
 					</b>
 					<br />
-					<Link to={gitHubURL} target="_blank" title="grigorijtomczuk">
+					<a href={gitHubURL} target="_blank" title="grigorijtomczuk">
 						Visit my GitHub page
-					</Link>
+					</a>
 				</p>
 			</header>
 		</div>

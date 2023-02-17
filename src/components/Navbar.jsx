@@ -1,3 +1,4 @@
+// ? Try NavLink instead?
 import { Link } from "react-router-dom";
 
 function Navbar() {
