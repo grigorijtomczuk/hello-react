@@ -1,0 +1,79 @@
+:root {
+	--navbar-height: 10vh;
+	--header-height: calc(100vh - var(--navbar-height));
+	--color-default: #282c34;
+	--color-darker: #252931;
+	--color-even-darker: #20232a;
+	--font-size: calc(10px + 2vmin);
+}
+
+.app {
+	background-color: var(--color-default);
+	font-size: var(--font-size);
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+	background-color: var(--color-darker);
+}
+
+.navbar ul {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	margin: 0 auto;
+	width: 25vw;
+	height: var(--navbar-height);
+}
+
+.navbar ul li a {
+	border-radius: 7px;
+	padding: 0.3em 0.6em;
+}
+
+.navbar ul li a:hover {
+	background-color: #61dafb;
+	color: #252931;
+}
+
+.app-header {
+	min-height: var(--header-height);
+}
+
+.app-logo-wrapper {
+	justify-content: center;
+	display: flex;
+	padding-top: 10vh;
+}
+
+.app-header .app-logo {
+	animation: App-logo-spin infinite 20s linear;
+	width: 50vmin;
+	height: 50vmin;
+	pointer-events: none;
+}
+
+.heading {
+	margin: 0 auto;
+	width: fit-content;
+	padding: 5vh 0;
+	font-size: calc(var(--font-size) * 1.33);
+}
+
+.text-box {
+	margin: 0 auto;
+	max-width: 50vw;
+	text-align: justify;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

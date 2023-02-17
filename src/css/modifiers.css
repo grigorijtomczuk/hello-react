@@ -1,0 +1,23 @@
+.text-align-center {
+	text-align: center;
+}
+
+.line-height-wider {
+	line-height: 1.66em;
+}
+
+code {
+	border-radius: 7px;
+	padding: 0.2em 0.4em;
+	background-color: var(--color-even-darker);
+	font-family: monospace;
+}
+
+:any-link {
+	color: #61dafb;
+	transition: all 0.2s ease-in-out;
+}
+
+:any-link:hover {
+	color: #b2eeff;
+}
